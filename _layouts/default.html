@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="{{ site.lang | default: "pt-BR" }}">
+<html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="shortcut icon" type="image/x-icon" href="imgs/favicon.ico">
+
 {% seo %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <script src="https://code.jquery.com/jquery-3.3.0.min.js" integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4=" crossorigin="anonymous"></script>
@@ -17,15 +17,14 @@
   <body>
 
       <header>
-        <img src="imgs/favicon.ico" style="vertical-align:middle; height: 42px">
-        <h1 style="vertical-align:middle; display:inline;">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+        <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
         <p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
       </header>
 
       <div id="banner">
         <span id="logo"></span>
 
-        <a href="{{ site.github.repository_url }}" class="button fork"><strong>Ver no Github</strong></a>
+        <a href="{{ site.github.repository_url }}" class="button fork"><strong>View On GitHub</strong></a>
         {% if site.show_downloads %}
           <div class="downloads">
             <span>Downloads:</span>
@@ -41,7 +40,7 @@
       <nav>
         <ul></ul>
       </nav>
-<section style="padding: 30px 30px 25px 30px">
+      <section>
         {{ content }}
 
       </section>
@@ -49,8 +48,7 @@
         {% if site.github.is_project_page %}
           <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
-        <img src="imgs/logo_ufac.png" alt="Logo da UFAC" style="width: 33%;max-width: 75px">
-        <p><small>Curso de Engenharia Elétrica</br>Créditos do tema: <a href="https://github.com/pages-themes/leap-day">mattgraham</a></small></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/mattgraham">mattgraham</a></small></p>
       </footer>
     </div>
 
