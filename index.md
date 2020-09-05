@@ -2,122 +2,36 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+<img src="imgs/divulgacao.jpg" alt="Arte de divulgação">
 
-[Link to another page](./another-page.html).
+# Como é o curso?
 
-There should be whitespace between paragraphs.
+Neste curso será ensinado o Python dentro do ambiente de desenvolvimento __Jupyter Lab__ com aplicações voltadas para estudantes, profissionais e pesquisadores de engenharia. Este ambiente permite a criação de __Notebooks__, um conceito de documento que inclui textos tradicionais com títulos, figuras, equações, etc, e códigos Python. Os resultados da programação em Python são impressos dentro do documento, permitindo, inclusive, a criação de botões interativos dentro do Notebook, possibilitando a criação de gráficos e outros elementos interativos. No curso, serão apresentados os conceitos básicos da linguagem de programação Python aplicados à alguns problemas da engenharia e da matemática, que serão previamente explicados ao decorrer das aulas. Além disso, o curso contará com atividades práticas semanais, que serão apresentadas nas aulas de videoconferências e em apostilas no formato de __Notebooks__. Ao final do curso cada participante deverá fazer um projeto final de curso para consolidar o conhecimento adquirido. Finalmente, o participante pode contar com a ajuda dos bolsistas e/ou voluntários para tirar dúvidas durante as aulas e na resolução das tarefas semanais.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+<div id='termo'/>
 
-# Header 1
+# Termo de compromisso
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+> Declaro para os devidos fins que ao me inscrever para o curso _Python para engenharia com aplicações_, estou ciente de que caso a minha participação seja __inferior a 75% das aulas__, __não receberei certificado de participação__ de acordo com edital PROEX-11/2020. Declaro, ainda, que __minha participação está condicionada às entregas das atividades semanais__ e do projeto final.
 
-## Header 2
+# Inscrição & informações
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+**Período de inscrição**: 02/09 à 09/09
 
-### Header 3
+**Período do curso**: 11/09 à 18/12 (60 horas)
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+**Horário**: Das 14h às 18hs (Toda sexta)
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+**Plataformas:** 
 
-#### Header 4
+- Google Meet (Streamming)
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+- Google Classroom (Plataforma educacional)
 
-##### Header 5
+- Discord (Chat)
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+- Este site (Material didático & Informações)
 
-###### Header 6
+**Contato**: [cursopython.ufac@gmail.com](mailto:cursopython.ufac@gmail.com)
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+<a href="https://cutt.ly/pyUFAC" class="btn" target="_blank">Inscreva-se</a>

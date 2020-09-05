@@ -1,109 +1,34 @@
-# The Leap day theme
+<img src="imgs/divulgacao.jpg" alt="Arte de divulgação">
 
-[![Build Status](https://travis-ci.org/pages-themes/leap-day.svg?branch=master)](https://travis-ci.org/pages-themes/leap-day) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-leap-day.svg)](https://badge.fury.io/rb/jekyll-theme-leap-day)
 
-*Leap day is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](http://pages-themes.github.io/leap-day), or even [use it today](#usage).*
+# Como é o curso?
 
-![Thumbnail of Leap day](thumbnail.png)
+Neste curso será ensinado o Python dentro do ambiente de desenvolvimento __Jupyter Lab__ com aplicações voltadas para estudantes, profissionais e pesquisadores de engenharia. Este ambiente permite a criação de __Notebooks__, um conceito de documento que inclui textos tradicionais com títulos, figuras, equações, etc, e códigos Python. Os resultados da programação em Python são impressos dentro do documento, permitindo, inclusive, a criação de botões interativos dentro do Notebook, possibilitando a criação de gráficos e outros elementos interativos. No curso, serão apresentados os conceitos básicos da linguagem de programação Python aplicados à alguns problemas da engenharia e da matemática, que serão previamente explicados ao decorrer das aulas. Além disso, o curso contará com atividades práticas semanais, que serão apresentadas nas aulas de videoconferências e em apostilas no formato de __Notebooks__. Ao final do curso cada participante deverá fazer um projeto final de curso para consolidar o conhecimento adquirido. Finalmente, o participante pode contar com a ajuda dos bolsistas e/ou voluntários para tirar dúvidas durante as aulas e na resolução das tarefas semanais.
 
-## Usage
+<div id='termo'/>
 
-To use the Leap day theme:
+# Termo de compromisso
 
-1. Add the following to your site's `_config.yml`:
+> Declaro para os devidos fins que ao me inscrever para o curso _Python para engenharia com aplicações_, estou ciente de que caso a minha participação seja __inferior a 75% das aulas__, __não receberei certificado de participação__ de acordo com edital PROEX-11/2020. Declaro, ainda, que __minha participação está condicionada às entregas das atividades semanais__ e do projeto final.
 
-    ```yml
-    theme: jekyll-theme-leap-day
-    ```
+# Inscrição & informações
 
-2. Optionally, if you'd like to preview your site on your computer, add the following to your site's `Gemfile`:
+**Período de inscrição**: 02/09 à 09/09
 
-    ```ruby
-    gem "github-pages", group: :jekyll_plugins
-    ```
+**Período do curso**: 11/09 à 18/12 (60 horas)
 
-## Customizing
+**Horário**: Das 14h às 18hs (Toda sexta)
 
-### Configuration variables
+**Plataformas:** 
 
-Leap day will respect the following variables, if set in your site's `_config.yml`:
+- Google Meet (Streamming)
 
-```yml
-title: [The title of your site]
-description: [A short description of your site's purpose]
-```
+- Google Classroom (Plataforma educacional)
 
-Additionally, you may choose to set the following optional variables:
+- Discord (Chat)
 
-```yml
-show_downloads: ["true" or "false" to indicate whether to provide a download URL]
-google_analytics: [Your Google Analytics tracking ID]
-```
+- Este site (Material didático & Informações)
 
-### Stylesheet
+**Contato**: [cursopython.ufac@gmail.com](mailto:cursopython.ufac@gmail.com)
 
-If you'd like to add your own custom styles:
-
-1. Create a file called `/assets/css/style.scss` in your site
-2. Add the following content to the top of the file, exactly as shown:
-    ```scss
-    ---
-    ---
-
-    @import "{{ site.theme }}";
-    ```
-3. Add any custom CSS (or Sass, including imports) you'd like immediately after the `@import` line
-
-*Note: If you'd like to change the theme's Sass variables, you must set new values before the `@import` line in your stylesheet.*
-
-### Layouts
-
-If you'd like to change the theme's HTML layout:
-
-1. [Copy the original template](https://github.com/pages-themes/leap-day/blob/master/_layouts/default.html) from the theme's repository<br />(*Pro-tip: click "raw" to make copying easier*)
-2. Create a file called `/_layouts/default.html` in your site
-3. Paste the default layout content copied in the first step
-4. Customize the layout as you'd like
-
-### Overriding GitHub-generated URLs
-
-Templates often rely on URLs supplied by GitHub such as links to your repository or links to download your project. If you'd like to override one or more default URLs:
-
-1. Look at [the template source](https://github.com/pages-themes/leap-day/blob/master/_layouts/default.html) to determine the name of the variable. It will be in the form of `{{ site.github.zip_url }}`.
-2. Specify the URL that you'd like the template to use in your site's `_config.yml`. For example, if the variable was `site.github.url`, you'd add the following:
-    ```yml
-    github:
-      zip_url: http://example.com/download.zip
-      another_url: another value
-    ```
-3. When your site is built, Jekyll will use the URL you specified, rather than the default one provided by GitHub.
-
-*Note: You must remove the `site.` prefix, and each variable name (after the `github.`) should be indent with two space below `github:`.*
-
-For more information, see [the Jekyll variables documentation](https://jekyllrb.com/docs/variables/).
-
-## Roadmap
-
-See the [open issues](https://github.com/pages-themes/leap-day/issues) for a list of proposed features (and known issues).
-
-## Project philosophy
-
-The Leap day theme is intended to make it quick and easy for GitHub Pages users to create their first (or 100th) website. The theme should meet the vast majority of users' needs out of the box, erring on the side of simplicity rather than flexibility, and provide users the opportunity to opt-in to additional complexity if they have specific needs or wish to further customize their experience (such as adding custom CSS or modifying the default layout). It should also look great, but that goes without saying.
-
-## Contributing
-
-Interested in contributing to Leap day? We'd love your help. Leap day is an open source project, built one contribution at a time by users like you. See [the CONTRIBUTING file](docs/CONTRIBUTING.md) for instructions on how to contribute.
-
-### Previewing the theme locally
-
-If you'd like to preview the theme locally (for example, in the process of proposing a change):
-
-1. Clone down the theme's repository (`git clone https://github.com/pages-themes/leap-day`)
-2. `cd` into the theme's directory
-3. Run `script/bootstrap` to install the necessary dependencies
-4. Run `bundle exec jekyll serve` to start the preview server
-5. Visit [`localhost:4000`](http://localhost:4000) in your browser to preview the theme
-
-### Running tests
-
-The theme contains a minimal test suite, to ensure a site with the theme would build successfully. To run the tests, simply run `script/cibuild`. You'll need to run `script/bootstrap` one before the test script will work.
+<a href="https://cutt.ly/pyUFAC" class="btn" target="_blank">Inscreva-se</a>
