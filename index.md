@@ -16,7 +16,7 @@ Neste curso será ensinado o Python dentro do ambiente de desenvolvimento __Jupy
 
 # Inscrição & informações
 
-**Período de inscrição**: 02/09 à 09/09
+**Período de inscrição**: Inscrições encerradas (**Lotado**)
 
 **Período do curso**: 11/09 à 18/12 (60 horas)
 
@@ -34,4 +34,13 @@ Neste curso será ensinado o Python dentro do ambiente de desenvolvimento __Jupy
 
 **Contato**: [cursopython.ufac@gmail.com](mailto:cursopython.ufac@gmail.com)
 
-<a href="https://cutt.ly/pyUFAC" class="btn" target="_blank">Inscreva-se</a>
+<a class="btn">Inscrições encerradas</a>
+
+<button type="button" class="btn-blocked" disabled style="height: 50px">Inscrições encerradas</button>
+
+
+
+# Nova seção
+
+## Sub-secção
+
