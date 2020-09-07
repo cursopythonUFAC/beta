@@ -3,6 +3,7 @@ layout: default
 ---
 
 # Primeiros passos
+----
 Aqui tem um texto indicando os primeiros passos do cursos  
 
   
@@ -17,17 +18,27 @@ Aqui tem um texto indicando os primeiros passos do cursos
 
 <ul class="atividade">
     <li>
-      <a href="" class="button" target="_blank">
-        <img src="imgs/meet.png" alt="Google Meet" class="plataformas">
-        <div class="nome">Meet</div>
-      </a>
+        <a href="" target="_blank">
+            <img src="imgs/activities-icons/atividade.svg" alt="Atividades">
+        </a>
+        <span>Roteiro</span>
+    </li>
+    <li>
+        <a href="" target="_blank">
+            <img src="imgs/activities-icons/material-auxiliar.svg" alt="Atividades">
+        </a>
+        <span>Material auxiliar</span>
+    </li>
+    <!--<li>
+        <a href="" target="_blank">
+            <img src="imgs/activities-icons/youtube.svg" alt="Atividades">
+        </a>
+        <span>Vídeo</span>
+    </li>-->
+    <li>
+        <a href="" target="_blank">
+            <img src="imgs/activities-icons/classroom-upload.svg" alt="Atividades">
+        </a>
+        <span>Entregar atividade</span>
     </li>
 </ul>
-
-
-
-
-
-
-
-----
