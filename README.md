@@ -1,7 +1,3 @@
----
-layout: default
----
-
 # Primeiros passos
 ----
 Aqui tem um texto indicando os primeiros passos do cursos  
