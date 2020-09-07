@@ -1,35 +1,66 @@
-<img src="imgs/README/ARTE DE DIVULGAÇÃO.jpg" alt="Arte de divulgação">
+## Repositório para organização Curso de Python
 
-# Como é o curso?
+## To do list - Preparação do curso
 
-Neste curso será ensinado o Python dentro do ambiente de desenvolvimento __Jupyter Lab__ com aplicações voltadas para estudantes, profissionais e pesquisadores de engenharia. Este ambiente permite a criação de __Notebooks__, um conceito de documento que inclui textos tradicionais com títulos, figuras, equações, etc, e códigos Python. Os resultados da programação em Python são impressos dentro do documento, permitindo, inclusive, a criação de botões interativos dentro do Notebook, possibilitando a criação de gráficos e outros elementos interativos. No curso, serão apresentados os conceitos básicos da linguagem de programação Python aplicados à alguns problemas da engenharia e da matemática, que serão previamente explicados ao decorrer das aulas. Além disso, o curso contará com atividades práticas semanais, que serão apresentadas nas aulas de videoconferências e em apostilas no formato de __Notebooks__. Ao final do curso cada participante deverá fazer um projeto final de curso para consolidar o conhecimento adquirido. Finalmente, o participante pode contar com a ajuda dos bolsistas e/ou voluntários para tirar dúvidas durante as aulas e na resolução das tarefas semanais.
+- [ ] Incluir Gustavo e Ana no projeto (Lucas) - Segunda (Mandar e-mail)
+- [ ] Verificar se colaborador e voluntário precisam enviar relatórios mensais (Lucas) - Segunda (Mandar e-mail)
+- [ ] Ensinar como usar o kdenlive (Lucas - **Semana que vem** Sábado - A tarde) para Ana
+- [ ] Artes no geral do canal, classroom e a logo (Ana) - Quarta
+- [ ] Criação do template do site (Lucas) - Terça feira
+- [ ] Inscrição (Leo) - (Terça):
+  - Entrar em contato com os participantes e garantir que todos assistam as aulas
+  - Fazer isso por e-mail ou whatsapp
+  - Leo decide
+  - Ideias:
+    - Mandar o link de acesso criado pela UFAC
+    - Mandar um e-mail agendado
+    - Etc
 
-<div id='termo'/>
+## Fluxo de trabalho
 
-# Termo de compromisso
+Criar aulas -> Publicar o notebook no site -> Passar informação para os monitores -> Live -> Edição e publicação no Youtube (Ana)
 
-> Declaro para os devidos fins que ao me inscrever para o curso _Python para engenharia com aplicações_, estou ciente de que caso a minha participação seja __inferior a 75% das aulas__, __não receberei certificado de participação__ de acordo com edital PROEX-11/2020. Declaro, ainda, que __minha participação está condicionada às entregas das atividades semanais__ e do projeto final.
+- Criar aulas (Deadline Quarta)
+- Publicar o notebook (Revisar e publicar) - Quinta
+- Live (Sexta)
+- Video (Quarta) - Disponibiliza o video cheio e depois disponibiliza o video editado
 
-# Inscrição & informações
+Nesta semana:
 
-**Período de inscrição**: Inscrições encerradas (<span style="color:red;"><b>Vagas totalmente preenchidas</b></span>)
+- Criar as aulas (Beatriz & Gustavo) - Deadline (Quarta):
+  - Definir a estrutura da primeira aula (Segunda - Tarde 2hs)
 
-**Período do curso**: 11/09 à 18/12 (60 horas)
+- Monitores da live (Gustavo & Leonardo):
+- Monitor fora da live (E-mail, Discord, etc):
+  - Leonardo
 
-**Horário**:
- > **Local (Acre)**: Das 14h às 18hs (Toda sexta)  
- > **Brasília**:  Das 16h às 20hs (Toda sexta)
+# Informações úteis
 
-**Plataformas:** 
+## Site
 
-- Google Meet (Streamming)
+* https://cursopythonufac.github.io
 
-- Google Classroom (Plataforma educacional)
+## Git
 
-- Discord (Chat)
+- Curso no youtube: https://www.youtube.com/watch?v=xEKo29OWILE&list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA
+- Curso no youtube (utilizando comandos no terminal): https://youtu.be/FF1f4bKYhoo?list=PLbEOwbQR9lqzK14I7OOeREEIE4k6rjgIj
+- Software: https://desktop.github.com/
+- Guia: https://rogerdudler.github.io/git-guide/index.pt_BR.html ou https://try.github.io
+- Criar o website no github: https://nicolas-van.github.io/easy-markdown-to-github-pages/
+- Guia de Python: https://automatetheboringstuff.com
 
-- Este site (Material didático & Informações)
+## Markdown
 
-**Contato**: [cursopython.ufac@gmail.com](mailto:cursopython.ufac@gmail.com)
+- Editor (Download): https://typora.io/
+- Guia: https://guides.github.com/features/mastering-markdown/
 
-<button class="btn-blocked" disabled>Inscrições encerradas</button>
+
+# Diário de atividades
+
+- Dia 07 de setembro (14h00 às 14h30):
+	- Reunião para definir como vai enviar o link dos e-mails
+	- **Participantes**: Beatriz e Leonardo
+- Dia 07 de setembro (14h00 às 14h30):
+	- Reunião para definir como vai enviar o link dos e-mails
+	- **Participantes**: Beatriz e Gustavo
+
