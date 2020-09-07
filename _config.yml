@@ -1,5 +1,3 @@
-plugins:
-  - jekyll-relative-links
 theme: jekyll-theme-leap-day
 title: Python para engenharia
 locale: pt-BR
