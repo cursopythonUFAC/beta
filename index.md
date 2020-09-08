@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Primeiros passos
+## Primeiros passos
 ----
 Antes de tudo, **te enviamos um e-mail**. Neste e-mail te enviamos os links de convite para o servidor do **Discord** e para sala de aula no **Google Classroom**.  Caso necessário, os links de **todas as plataformas digitais podem ser acessadas no menu superior.**
 
@@ -21,7 +21,7 @@ O **Google Classroom** é a plataforma de ensino  aonde você enviará as suas a
 
 O **Google Meet** é a plataforma de *streamming* (**lives**) aonde aconterão os encontros semanais. O **link** da live será enviado **uma hora antes** pelos canais de comunicação do curso. Além disso, durante as aulas, **você poderá acessar a live (Google Meet)  no menu superior de plataformas digitais**, localizado no topo do site.
 
-# Conteúdo do curso
+## Conteúdo do curso
 ----
 ### **Aula 1:** Primeiros passos
 > Nesta aula o aluno aprenderá à:
