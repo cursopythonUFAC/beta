@@ -19,7 +19,7 @@ O **Google Classroom** é a plataforma de ensino  aonde você enviará as suas a
 
 ### **Google Meet**
 
-O **Google Meet** é a plataforma de *streamming* (**lives**) aonde aconterão os encontros semanais. O **link** da live será enviado **uma hora antes** pelos canais de comunicação do curso. Além disso, durante as aulas, **você poderá acessar a live (Google Meet)  no menu de plataformas digitais**, localizado no topo do site.
+O **Google Meet** é a plataforma de *streamming* (**lives**) aonde aconterão os encontros semanais. O **link** da live será enviado **uma hora antes** pelos canais de comunicação do curso. Além disso, durante as aulas, **você poderá acessar a live (Google Meet)  no menu superior de plataformas digitais**, localizado no topo do site.
 
 # Conteúdo do curso
 ----
