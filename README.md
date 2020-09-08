@@ -1,6 +1,8 @@
 # Primeiros passos
 ----
-Aqui tem um texto indicando os primeiros passos do cursos  
+Antes de tudo, te enviamos um **e-mail**. Neste e-mail te enviamos os links de convite para o servidor do **Discord** e para sala de aula no **Google Classroom**.  
+
+É recomendado a utilização da versão Desktop do **Discord**
 
   
 
