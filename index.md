@@ -4,7 +4,7 @@ layout: default
 
 # Primeiros passos
 ----
-Antes de tudo, **te enviamos um e-mail**. Neste e-mail te enviamos os links de convite para o servidor do **Discord** e para sala de aula no **Google Classroom**.  Caso necessário, os links de todas as plataformas digitais podem ser acessados no menu superior.
+Antes de tudo, **te enviamos um e-mail**. Neste e-mail te enviamos os links de convite para o servidor do **Discord** e para sala de aula no **Google Classroom**.  Caso necessário, os links de **todas as plataformas digitais podem ser acessadas no menu superior.**
 
 ### **Discord**
 O **Discord** é tipo um **Whatsapp**, só que com muito mais recursos. Será nosso canal de comunicação entre você e os tutores. Lá você poderão **conversar** e **tirar dúvidas** e receber **informações relativas ao curso**. O link para download pode ser encontrado logo abaixo:  
@@ -19,7 +19,7 @@ O **Google Classroom** é a plataforma de ensino  aonde você enviará as suas a
 
 ### **Google Meet**
 
-O **Google Meet** é a plataforma de *streamming* (**lives**) aonde aconterão os encontros semanais. O **link** da live será enviado **uma hora antes** pelos canais de comunicação do curso.
+O **Google Meet** é a plataforma de *streamming* (**lives**) aonde aconterão os encontros semanais. O **link** da live será enviado **uma hora antes** pelos canais de comunicação do curso. Além disso, durante as aulas, **você poderá acessar a live (Google Meet)  no menu de plataformas digitais**, localizado no topo do site.
 
 # Conteúdo do curso
 ----
