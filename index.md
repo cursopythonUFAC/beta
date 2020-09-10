@@ -8,6 +8,8 @@ layout: default
 
 -----
 
+Antes de tudo, **te enviamos um e-mail**. Neste e-mail te enviamos os links de convite para o servidor do **Discord** e para sala de aula no **Google Classroom**.  Caso necessário, os links de **todas as plataformas digitais podem ser acessadas no menu superior.**
+
 **Onde:** No Google **Meet** (Ver o menu superior)
 
 **Datas**: de 11/09 à 18/12 (**Toda sexta**)
@@ -23,8 +25,6 @@ layout: default
 # Plataformas digitais
 
 ----
-Antes de tudo, **te enviamos um e-mail**. Neste e-mail te enviamos os links de convite para o servidor do **Discord** e para sala de aula no **Google Classroom**.  Caso necessário, os links de **todas as plataformas digitais podem ser acessadas no menu superior.**
-
 ### Anaconda
 
 Anaconda é a distribuição que usaremos para rodar os nossos códigos Python em Notebooks. Link para download:
