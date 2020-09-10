@@ -342,6 +342,10 @@ footer { width: 180px; position: fixed; left: 50%; margin-left: -530px; bottom: 
 
 .plataformas { height: 16px; vertical-align: text-bottom; }
 
+nav li a { padding-right: 0.2em; border-right: 2px solid #EAE6D1; outline: none; }
+
+nav .active a { border-right: 2px solid #666; }
+
 .atividade { display: block; list-style: none; padding: 0; width: 390px; margin-left: auto; align-items: center; margin-right: auto; border-bottom: 1px solid #dbdbdb; border-top: 1px solid #dbdbdb; }
 
 .atividade li { margin-top: 10px; margin-bottom: 10px; vertical-align: center; width: 120px; display: inline-block; }
@@ -356,6 +360,6 @@ footer { width: 180px; position: fixed; left: 50%; margin-left: -530px; bottom: 
 
 @media only screen and (max-width: 340px) { #titulo-logo { display: none; } #banner .downloads { margin-right: 10px; } #banner #logo { display: none; } }
 
-@media only screen and (max-width: 600px) { #banner .nome { display: none; } .atividade { width: 154px; height: 48px; } .atividade li { width: 48px; } .atividade img { width: 32px; } .atividade span { display: none; } }
+@media only screen and (max-width: 640px) { #banner .nome { display: none; } .atividade { width: 154px; height: 48px; } .atividade li { width: 48px; } .atividade img { width: 32px; } .atividade span { display: none; } }
 
 /*# sourceMappingURL=style.css.map */

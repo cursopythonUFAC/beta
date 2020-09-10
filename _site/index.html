@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="google-site-verification" content="mt09r5KXDq77uW-GRWevO-9Q9ZJitYWkdmEp8XJdG8Y" />
-  <link rel="shortcut icon" type="image/x-icon" href="imgs/favicon.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="/imgs/favicon.ico">
   <meta name="generator" content="Jekyll v3.9.0" />
   <meta property="og:title" content="Curso de Python para engenharia com aplicações" />
   <meta property="og:locale" content="en_US" />
@@ -33,36 +33,54 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha256-3Jy/GbSLrg0o9y5Z5n1uw0qxZECH7C6OQpVBgNFYa0g=" crossorigin="anonymous"></script>
     <![endif]-->
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <!-- Mathjax Support -->
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [
+          ['$', '$'],
+          ['\\(', '\\)']
+        ]
+      },
+      options: {
+        enableMenu: false
+      }
+    };
+  </script>
+  <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+  </script>
 </head>
 
 <body>
 
   <header>
-    <img src="imgs/favicon.ico" id="titulo-logo">
+    <a href="/"><img src="/imgs/favicon.ico" id="titulo-logo"></a>
     <h1 id="titulo">Python para engenharia</h1>
     <p>Site de apoio do curso online de Python para a engenharia com aplicações</p>
   </header>
 
   <div id="banner">
+    
+
     <a href="" id="logo" target="_blank"></a>
     <div class="downloads">
       <span id="plataformas">Plataformas digitais:</span>
       <ul>
         <li>
           <a href="https://meet.google.com/" class="button" target="_blank">
-            <img src="imgs/meet.png" alt="Google Meet" class="plataformas">
+            <img src="/imgs/meet.png" alt="Google Meet" class="plataformas">
             <div class="nome">Meet</div>
           </a>
         </li>
         <li>
           <a href="https://classroom.google.com/" class="button" target="_blank">
-            <img src="imgs/classroom.png" alt="Google Classroom" class="plataformas">
+            <img src="/imgs/classroom.png" alt="Google Classroom" class="plataformas">
             <div class="nome">Classroom</div>
           </a>
         </li>
         <li>
-          <a href="https://discord.com/download" class="button" target="_blank">
-            <img src="imgs/discord.png" alt="Discord" class="plataformas">
+          <a href="https://discord.gg/vdCWJu" class="button" target="_blank">
+            <img src="/imgs/discord.png" alt="Discord" class="plataformas">
             <div class="nome">Discord</div>
           </a>
         </li>
@@ -77,15 +95,50 @@
   </div><!-- end banner -->
 
   <div class="wrapper">
-    <nav>
+    <nav id="side-menu">
       <ul></ul>
     </nav>
     <section style="padding: 30px 30px 25px 30px">
-      <h2 id="primeiros-passos">Primeiros passos</h2>
+      <h1 id="informações-importantes">Informações importantes</h1>
+
+<hr />
+
+<p><strong>Onde:</strong> No Google <strong>Meet</strong> (Ver o menu superior)</p>
+
+<p><strong>Datas</strong>: de 11/09 à 18/12 (<strong>Toda sexta</strong>)</p>
+
+<p><strong>Horário</strong>:</p>
+
+<ul>
+  <li><strong>Brasília</strong>: Das 16hs às 20hs</li>
+  <li><strong>Local (Acre)</strong>: Das 14hs às 18hs</li>
+</ul>
+
+<p><strong>Contato</strong>: cursopython.ufac@gmail.com</p>
+
+<h1 id="plataformas-digitais">Plataformas digitais</h1>
+
 <hr />
 <p>Antes de tudo, <strong>te enviamos um e-mail</strong>. Neste e-mail te enviamos os links de convite para o servidor do <strong>Discord</strong> e para sala de aula no <strong>Google Classroom</strong>.  Caso necessário, os links de <strong>todas as plataformas digitais podem ser acessadas no menu superior.</strong></p>
 
+<h3 id="anaconda">Anaconda</h3>
+
+<p>Anaconda é a distribuição que usaremos para rodar os nossos códigos Python em Notebooks. Link para download:</p>
+
+<blockquote>
+  <p><a href="https://www.anaconda.com/products/individual">https://www.anaconda.com/products/individual</a></p>
+</blockquote>
+
+<p>A instalação é simples. Basta clicar Next toda vida, porém tem uma ressalva:</p>
+
+<blockquote>
+  <p>Caso necessite de rodar o Python no terminal do Windows pode clicar na opção:</p>
+</blockquote>
+
+<p><img src="imgs/instalacao_anaconda.png" alt="Instalação Anaconda" /></p>
+
 <h3 id="discord"><strong>Discord</strong></h3>
+
 <p>O <strong>Discord</strong> é tipo um <strong>Whatsapp</strong>, só que com muito mais recursos. Será nosso canal de comunicação entre você e os tutores. Lá você poderão <strong>conversar</strong> e <strong>tirar dúvidas</strong> e receber <strong>informações relativas ao curso</strong>. O link para download pode ser encontrado logo abaixo:</p>
 
 <blockquote>
@@ -93,6 +146,8 @@
 </blockquote>
 
 <p>É recomendado a utilização da versão Desktop do <strong>Discord</strong>.</p>
+
+<p><strong>Depois de baixado o Discord, clique no menu superior para acessar o <a href="https://discord.gg/vdCWJu">convite</a>.</strong></p>
 
 <h3 id="google-classroom"><strong>Google Classroom</strong></h3>
 
@@ -102,11 +157,12 @@
 
 <p>O <strong>Google Meet</strong> é a plataforma de <em>streamming</em> (<strong>lives</strong>) aonde aconterão os encontros semanais. O <strong>link</strong> da live será enviado <strong>uma hora antes</strong> pelos canais de comunicação do curso. Além disso, durante as aulas, <strong>você poderá acessar a live (Google Meet)  no menu superior de plataformas digitais</strong>, localizado no topo do site.</p>
 
-<h2 id="conteúdo-do-curso">Conteúdo do curso</h2>
+<h1 id="conteúdo-do-curso">Conteúdo do curso</h1>
 <hr />
-<h3 id="aula-1-primeiros-passos"><strong>Aula 1:</strong> Primeiros passos</h3>
+<h3 id="capítulo-1-primeiros-passos"><strong>Capítulo 1:</strong> Primeiros passos</h3>
 <blockquote>
-  <p>Nesta aula o aluno aprenderá à:
+  <p>Nesta capítulo o aluno aprenderá à:
+<strong>FAZER DESCRIÇÃO</strong>
 Instalar configurar do Anaconda para o uso do Jupyter Lab com o Python.
 Apresentação do ambiente de desenvolvimento Jupyter Lab.
 Criação de um Notebook e execução de um código Python em um Notebook e no terminal.</p>
@@ -114,17 +170,17 @@ Criação de um Notebook e execução de um código Python em um Notebook e no t
 
 <ul class="atividade">
     <li>
-        <a href="https://www.google.com" target="_blank">
+        <a href="notebooks/cap1/cap1.html">
             <img src="imgs/activities-icons/roteiro.svg" alt="Roteiro" />
         </a>
         <span>Roteiro</span>
     </li>
 
     <li>
-        <a href="https://www.facebook.com" target="_blank">
-            <img src="imgs/activities-icons/material.svg" alt="Material auxiliar" />
+        <a href="https://github.com/cursopythonUFAC/cursopythonUFAC.github.io/raw/master/notebooks/cap1/cap1.zip" target="_blank">
+            <img src="imgs/activities-icons/material.svg" alt="Jupyter Notebook" />
         </a>
-        <span>Material auxiliar</span>
+        <span>Jupyter Notebook</span>
     </li>
 
     <!--<li>
@@ -134,17 +190,17 @@ Criação de um Notebook e execução de um código Python em um Notebook e no t
         <span>Vídeo</span>
     </li>-->
     <li>
-        <a href="https://www.twitter.com" target="_blank">
-            <img src="imgs/activities-icons/entrega.svg" alt="Entrega atividade" />
+        <a href="https://classroom.google.com/" target="_blank">
+            <img src="imgs/activities-icons/entrega.svg" alt="Entregar atividade" />
         </a>
-        <span>Entrega atividade</span>
+        <span>Entregar atividade</span>
     </li>
 </ul>
 
 
     </section>
     <footer>
-      <img src="imgs/logo_ufac.png" alt="Logo da UFAC" style="width: 33%;max-width: 75px">
+      <img src="/imgs/logo_ufac.png" alt="Logo da UFAC" style="width: 33%;max-width: 75px">
       <p><small>Curso de Engenharia Elétrica</br>Créditos do tema: <a
             href="https://github.com/pages-themes/leap-day">mattgraham</a></small></p>
     </footer>

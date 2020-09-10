@@ -1,9 +1,5 @@
 theme: jekyll-theme-leap-day
 title: Python para engenharia com aplicações
 locale: pt-BR
+markdown: kramdown
 description: Site de apoio do curso online de Python para a engenharia com aplicações
-relative_links:
-  enabled: true
-  collections: true
-include:
-  - README.md
